@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Character Creation</title>
+    <link rel="stylesheet" href="creation-style.css">
+  </head>
+  <body>
+
+    <div class="new-user">
+      <form class="username-form">
+        <fieldset>
+          <legend>New User</legend>
+          <label for="user">Input Username: </label><input type="text" name="user">
+
+        </fieldset>
+      </form>
+    </div>
+
+    <div class="new-character">
+      <form class="creator">
+        <fieldset>
+          <legend>Create Your Character</legend>
+
+          <label for="characterName">Name Your Character: </label><input type="text" name="characterName">
+
+          <label for="gender">Choose Your Gender: </label>
+          <select class="gender-menu" name="gender">
+            <option value="">She/Her</option>
+            <option value="">He/Him</option>
+            <option value="">They/Them</option>
+          </select>
+        </fieldset>
+      </form>
+    </div>
+
+    <div class="submit">
+      <button type="button" name="creatorButton">Off to Dreamland!</button>
+
+    </div>
+
+    <script type="text/javascript" src="creation-logic.js"></script>
+  </body>
+</html>
