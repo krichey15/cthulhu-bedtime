@@ -12,6 +12,20 @@
 var storyObjects;
 var storyPage = document.getElementById('story-page');
 var userChoices = document.getElementById('user-choices');
+var storyChoices = [];
+var storyIndex = 0;
+
+var choiceOneEl = document.getElementsByName('choiceOne')[0];
+var choiceTwoEl = document.getElementsByName('choiceTwo')[0];
+
+var pEl = document.createElement('p');
+pEl.setAttribute('class', 'story-text');
+
+var finalScenario = {
+  choiceOne: '',
+  choiceTwo: '',
+  choiceThree: ''
+};
 
 ///gets what is in local storage and puts it in the story objects
 function convertStory(){
@@ -35,8 +49,6 @@ function convertStory(){
 ///shows option and choices
 function displayStory(index){
   ///Get story string and display to story section
-  var pEl = document.createElement('p');
-  pEl.setAttribute('class', 'story-text');
   pEl.textContent = storyObjects[index].story;
   storyPage.appendChild(pEl);
 
@@ -52,6 +64,21 @@ function displayStory(index){
   inputChoiceTwo.value = storyObjects[index].choiceTwo;
   inputChoiceOneLabel.textContent = storyObjects[index].choiceOne;
   inputChoiceTwoLabel.textContent = storyObjects[index].choiceTwo;
+}
+
+choiceOneEl.addEventListener('click', choiceSelection);
+choiceTwoEl.addEventListener('click', choiceSelection);
+
+function choiceSelection (event){
+  ////Selecting choice logs choice to final scenario
+  storyChoices.push(event.target.value);
+  ///Increments scenario by 1
+  storyIndex += 1;
+  if(storyIndex < storyObjects.length){
+    displayStory(storyIndex);
+  }else {
+    ///go to finalScenario
+  }
 }
 
 convertStory();
