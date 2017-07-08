@@ -29,7 +29,6 @@ function convertStory(){
       {story:'This is scenario Two', choiceOne: 'Choice One', choiceTwo: 'Choice Two'},
       {story:'This is scenario Three', choiceOne: 'Choice One', choiceTwo: 'Choice Two'}
     ];
-    console.log(storyObjects);
   }
 }
 
@@ -40,16 +39,19 @@ function displayStory(index){
   pEl.setAttribute('class', 'story-text');
   pEl.textContent = storyObjects[index].story;
   storyPage.appendChild(pEl);
-  
+
   ///get options and display to div
   var inputChoiceOne = document.getElementsByName('choiceOne')[0];
+  var inputChoiceOneLabel = document.getElementById('choice-one');
   var inputChoiceTwo = document.getElementsByName('choiceTwo')[0];
+  var inputChoiceTwoLabel = document.getElementById('choice-two');
 
   console.log(inputChoiceOne);
 
   inputChoiceOne.value = storyObjects[index].choiceOne;
   inputChoiceTwo.value = storyObjects[index].choiceTwo;
-
+  inputChoiceOneLabel.textContent = storyObjects[index].choiceOne;
+  inputChoiceTwoLabel.textContent = storyObjects[index].choiceTwo;
 }
 
 convertStory();
