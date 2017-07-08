@@ -8,10 +8,14 @@
 ///If there is local storage, display the first page object in the array and choices at end
 ///Click event which option was chosen. logs that in final scenario object
 
+///Where story objects will go
+var storyObjects;
+var storyPage = document.getElementById('story-page');
+var userChoices = document.getElementById('user-choices');
+
 ///gets what is in local storage and puts it in the story objects
 function convertStory(){
   ///change name based on what Kyle decides will be the name of local storage
-  var storyObjects;
   if(localStorage.storyArray){
     ////parse into array of story objects with empty one for final scenario
     var storyObjectsString = localStorage.storyArray;
@@ -27,6 +31,13 @@ function convertStory(){
     ];
     console.log(storyObjects);
   }
+}
+
+///shows option and choices
+function displayStory(){
+  ///Get story string and display to story section
+
+  ///get options and display to div
 }
 
 convertStory();
