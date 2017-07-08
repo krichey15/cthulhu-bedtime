@@ -76,9 +76,23 @@ function choiceSelection (event){
   storyIndex += 1;
   if(storyIndex < storyObjects.length){
     displayStory(storyIndex);
+    ///Uncheck all checkboxes
+    choiceOneEl.checked = false;
+    choiceTwoEl.checked = false;
   }else {
+    finalStory(storyChoices);
+    var bodyEl = document.getElementsByTagName('body')[0];
+    bodyEl.removeChild(userChoices);
     ///go to finalScenario
   }
+}
+
+///sets properties of final scenario
+function finalStory(choices){
+  finalScenario.choiceOne = choices[0];
+  finalScenario.choiceTwo = choices[1];
+  finalScenario.choiceThree = choices[2];
+  console.log('Final Story is reached');
 }
 
 convertStory();
