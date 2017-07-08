@@ -34,10 +34,22 @@ function convertStory(){
 }
 
 ///shows option and choices
-function displayStory(){
+function displayStory(index){
   ///Get story string and display to story section
-
+  var pEl = document.createElement('p');
+  pEl.setAttribute('class', 'story-text');
+  pEl.textContent = storyObjects[index].story;
+  storyPage.appendChild(pEl);
   ///get options and display to div
+  var inputChoiceOne = document.getElementsByName('choiceOne')[0];
+  var inputChoiceTwo = document.getElementsByName('choiceTwo')[0];
+
+  console.log(inputChoiceOne);
+
+  inputChoiceOne.value = storyObjects[index].choiceOne;
+  inputChoiceTwo.value = storyObjects[index].choiceTwo;
+
 }
 
 convertStory();
+displayStory(0);
