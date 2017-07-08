@@ -37,12 +37,8 @@ function convertStory(){
     console.log('Conversion happened');
   }else {
     ///Take back to character creation page
-    console.log('No character information is available');
-    storyObjects = [
-      {story:'This is scenario one', choiceOne: 'Choice One', choiceTwo: 'Choice Two'},
-      {story:'This is scenario Two', choiceOne: 'Choice One', choiceTwo: 'Choice Two'},
-      {story:'This is scenario Three', choiceOne: 'Choice One', choiceTwo: 'Choice Two'}
-    ];
+    alet('Please create a character for the story');
+    window.location.assign('creation.html');
   }
 }
 
