@@ -37,7 +37,7 @@ function convertStory(){
     console.log('Conversion happened');
   }else {
     ///Take back to character creation page
-    alet('Please create a character for the story');
+    alert('Please create a character for the story');
     window.location.assign('creation.html');
   }
 }
