@@ -27,9 +27,13 @@ input {
 
 #story-page {
   margin: 1%;
+  min-height: 500px;
+  min-width: 600px;
+  background-position: center top;
   background-size: contain;
-  background-color: white;
+  background-color: #6d4929;
   background-image: url('assets/spellbook.png');
+  background-repeat: no-repeat;
   border: 2px solid black;
 }
 
