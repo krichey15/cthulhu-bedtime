@@ -1,0 +1,30 @@
+/** {
+  border: 1px red dotted;
+}*/
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #eaea97;
+}
+
+#splash {
+  position: absolute;
+  height: 12.56em;
+  width: 36.2em;
+}
+
+#logo {
+  height: 200px;
+  width: 200px;
+  display: inline;
+}
+
+#web-name {
+  font-family: 'Gloria Hallelujah', cursive;
+  display: inline;
+  position: absolute;
+}

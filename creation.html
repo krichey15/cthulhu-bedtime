@@ -9,36 +9,35 @@
   <body>
 
     <div class="new-user">
-      <form class="username-form">
+      <form id="userInput">
         <fieldset>
           <legend>New User</legend>
-          <label for="user">Input Username: </label><input type="text" name="user">
-
+          <label for="user">Input Username: </label><input type="text" name="user" value="">
         </fieldset>
-      </form>
     </div>
 
-    <div class="new-character">
-      <form class="creator">
+    <div class="userInput">
         <fieldset>
           <legend>Create Your Character</legend>
 
-          <label for="characterName">Name Your Character: </label><input type="text" name="characterName">
+          <label for="characterName">Name Your Character: </label><input type="text" name="characterName" value="">
 
-          <label for="gender">Choose Your Gender: </label>
+          <label for="gender" >Choose Your Gender: </label>
           <select class="gender-menu" name="gender">
-            <option value="">She/Her</option>
-            <option value="">He/Him</option>
-            <option value="">They/Them</option>
+            <option value="She/Her">She/Her</option>
+            <option value="He/Him">He/Him</option>
+            <option value="They/Them">They/Them</option>
           </select>
         </fieldset>
+
+        <div class="submit">
+          <a href="story.html"><button type="submit" name="creatorButton" id="dreamland">Off to Dreamland!</button></a>
+
+        </div>
       </form>
     </div>
 
-    <div class="submit">
-      <a href="story.html"><button type="button" name="creatorButton">Off to Dreamland!</button></a>
 
-    </div>
 
     <script type="text/javascript" src="creation-logic.js"></script>
   </body>
