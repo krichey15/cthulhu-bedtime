@@ -37,8 +37,13 @@ function convertStory(){
     console.log('Conversion happened');
   }else {
     ///Take back to character creation page
-    alert('Please create a character for the story');
-    window.location.assign('creation.html');
+    // alert('Please create a character for the story');
+    // window.location.assign('creation.html');
+    storyObjects = [
+      {story:'Story section one', choiceOne: 'put in jar', choiceTwo:'smear on sidewalk'},
+      {story:'Story section two', choiceOne: 'Choice One', choiceTwo:'Choice Two'},
+      {story:'Story section three', choiceOne: 'Choice One', choiceTwo:'Choice Two'}
+    ];
   }
 }
 
