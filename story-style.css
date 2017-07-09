@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  background-color: #ffffb6;
+  background-color: #eaea97;
   text-align: center;
 }
 
@@ -27,7 +27,9 @@ input {
 
 #story-page {
   margin: 1%;
+  background-size: contain;
   background-color: white;
+  background-image: url('assets/spellbook.png');
   border: 2px solid black;
 }
 
