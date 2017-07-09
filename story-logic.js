@@ -40,7 +40,7 @@ function convertStory(){
     // alert('Please create a character for the story');
     // window.location.assign('creation.html');
     storyObjects = [
-      {story:'Story section one', choiceOne: 'put in jar', choiceTwo:'smear on sidewalk'},
+      {story:'“Dear Cthulhu, I have many urges and desires, but on this most sacred of nights, there is only one thing that I want. I cannot commit my request to digital media, but please look into my heart of hearts and grant my dearest wish. And I would also like a pony. Yours Truly, NAME ” NAME finished THEIR letter, and with a shaking hand, clicked the Send button. NAME waited several seconds, unsure if THEY would ever receive a response to THEIR request, but knew that in the end, if THEIR wish was granted, the results would be obvious. NAME stood, stretching, sore from sitting for so long in front of THEIR computer. THEY glanced out the window, squinting at the ominously bright moon. It\’s a good time for a walk, NAME thought. THEY put on THEIR shoes, grabbed a fresh-baked cinnamon roll, and headed out the door, into the night. It was warm and muggy, fireflies glowing in the air. NAME held out THEIR hands, catching one of the bioluminescent bugs. THEY…', choiceOne: 'put in jar', choiceTwo:'smear on sidewalk'},
       {story:'Story section two', choiceOne: 'Choice One', choiceTwo:'Choice Two'},
       {story:'Story section three', choiceOne: 'Choice One', choiceTwo:'Choice Two'}
     ];

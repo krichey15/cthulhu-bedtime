@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  min-width: 880px;
   background-image: url('assets/wood.jpg');
   background-color: #6d4929;
   text-align: center;
@@ -13,8 +14,10 @@ h1 {
 }
 
 .story-text {
-  padding-left: 54%;
-  padding-top: 4%;
+  padding-left: 25%;
+  padding-right: 5%;
+  padding-top: 10%;
+  padding-bottom: 16%;
   text-align: left;
   font-family: 'Athiti', sans-serif;
   font-size: 1.6em;
@@ -31,11 +34,9 @@ input {
 
 #story-page {
   margin: 1%;
-  min-height: 500px;
-  min-width: 600px;
-  background-position: center top;
-  background-size: contain;
-  background-image: url('assets/spellbook.png');
+  /*background-position: center top;*/
+  background-size: cover;
+  background-image: url('assets/spellbook_half.png');
   background-repeat: no-repeat;
 }
 
