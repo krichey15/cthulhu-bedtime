@@ -1,19 +1,22 @@
 body {
   margin: 0px;
-  background-color: #eaea97;
+  background-color: #6d4929;
   text-align: center;
 }
 
 h1 {
   margin: 0px;
-  background-color: #1c3810;
+  background-color: black;
   color: white;
   font-family: 'Gloria Hallelujah', cursive;
 }
 
 .story-text {
+  padding-left: 54%;
+  padding-top: 4%;
+  text-align: left;
   font-family: 'Athiti', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.6em;
 }
 
 label {
@@ -34,7 +37,6 @@ input {
   background-color: #6d4929;
   background-image: url('assets/spellbook.png');
   background-repeat: no-repeat;
-  border: 2px solid black;
 }
 
 #user-choices {
