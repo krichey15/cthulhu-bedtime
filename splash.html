@@ -6,24 +6,28 @@
     <link rel="stylesheet" href="splash-style.css">
   </head>
   <body>
+  <div id="whole-thing">
     <div id="splash">
-      <h1>Cthulhu Bedtime Stories</h1>
-      <img src="assets/cthulhu-bedtime-stories-color.png" alt="Sleeping Cthulhu">
+      <h1 id="web-name">Cthulhu Bedtime Stories</h1>
+      <img id="logo" src="assets/cthulhu-bedtime-stories-color.png" alt="Sleeping Cthulhu">
     </div>
+
     <div id="user-login">
       <form id="login">
-        <fieldset>
-          <legend>User Login</legend>
+        <fieldset id="login-field">
+          <legend class="center">User Login</legend>
           <label for="username">Username:</label>
           <input type="text" name="username" value="">
           <button type="submit" name="login" id="login-button">Log in</button>
         </fieldset>
-        <fieldset>
-          <legend>New Character</legend>
+
+        <fieldset id="new-char">
+          <legend class="center">New Character</legend>
           <a href="creation.html"><button type="button" name="creationButton" id="character-creation">Create Character</button></a>
         </fieldset>
       </form>
     </div>
+  </div>
     <script type="text/javascript" src="splash-logic.js"></script>
   </body>
 </html>

@@ -1,6 +1,6 @@
-/** {
+* {
   border: 1px red dotted;
-}*/
+}
 
 html, body {
   height: 100%;
@@ -8,23 +8,50 @@ html, body {
 }
 
 body {
-  background-color: #eaea97;
+  background-color: #7a986c;
 }
 
 #splash {
   position: absolute;
-  height: 12.56em;
-  width: 36.2em;
+  height: 10em;
+  width: 29em;
 }
 
 #logo {
-  height: 200px;
-  width: 200px;
+  height: 10em;
+  width: 10em;
   display: inline;
 }
 
 #web-name {
   font-family: 'Gloria Hallelujah', cursive;
   display: inline;
+  position: absolute;
+  left: 30.8%;
+  top: 54%;
+}
+
+#user-login {
+  display: inline;
+  position: absolute;
+  top: 29%;
+}
+
+.center {
+  text-align: center;
+}
+
+#login-button{
+  position: absolute;
+  right: 42%;
+  top: 46%;
+}
+
+#new-char{
+  position: absolute;
+  top: 50%;
+}
+
+#login-field{
   position: absolute;
 }
