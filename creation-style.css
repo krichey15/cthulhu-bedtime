@@ -1,18 +1,30 @@
 body {
-  background-color: green;
+  background-color: #007C00;
+  background-image: url('assets/cthulhu-bedtime-stories-color.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: 30%;
 }
 
 legend {
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Philosopher', sans-serif;
   font-size: 45px;
 }
 
 label {
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Philosopher', sans-serif;
 }
 
-.new-character, .new-user {
-  border: 3px solid black;
-  margin: 10px 0px 10px 0px;
-  padding: 20px;
+.user-input {
+  text-align: center;
+}
+
+fieldset {
+  display: block;
+  float: left;
+}
+
+#dreamland {
+  clear: both;
 }
