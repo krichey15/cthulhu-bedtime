@@ -1,6 +1,6 @@
 'use strict';
 
-var creation = document.getElementById('userInput');
+var creation = document.getElementById('user-input');
 creation.addEventListener('submit', createCharacter);
 
 var femaleArray = ['she', 'She', 'her', 'Her'];

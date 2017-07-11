@@ -1,10 +1,11 @@
 body {
-  background-color: #007C00;
+  background-color: #7a986c;
   background-image: url('assets/cthulhu-bedtime-stories-color.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 50% 50%;
-  background-size: 30%;
+  background-position: top center;
+  background-size: 20%;
+  margin: 0px;
 }
 
 legend {
@@ -16,15 +17,22 @@ label {
   font-family: 'Philosopher', sans-serif;
 }
 
-.user-input {
+form {
+  background: url('assets/Gothic-border-for-creation.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0px 10% 0px 10%;
+  /*background: rgba(175, 175, 175, 0.6);*/
+}
+
+#user-character-input {
   text-align: center;
+  margin: 230px 20% 0px 20%;
 }
 
-fieldset {
+.submit {
   display: block;
-  float: left;
-}
-
-#dreamland {
   clear: both;
+  text-align: center;
+  padding: 20px;
 }
