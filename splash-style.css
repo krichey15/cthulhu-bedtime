@@ -1,6 +1,6 @@
-* {
+/** {
   border: 1px red dotted;
-}
+}*/
 
 html, body {
   height: 100%;
@@ -9,6 +9,15 @@ html, body {
 
 body {
   background-color: #7a986c;
+}
+
+#whole-thing{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -8em 0em 0em -14em;
+  height: 17em;
+  width: 29.5em;
 }
 
 #splash {
@@ -34,7 +43,7 @@ body {
 #user-login {
   display: inline;
   position: absolute;
-  top: 29%;
+  top: 60%;
 }
 
 .center {
@@ -43,15 +52,16 @@ body {
 
 #login-button{
   position: absolute;
-  right: 42%;
+  right: 41%;
   top: 46%;
 }
 
 #new-char{
-  position: absolute;
-  top: 50%;
+  display: inline;
+  margin-left: 3em
 }
 
 #login-field{
-  position: absolute;
+  display: inline;
+  width: 16em;
 }
