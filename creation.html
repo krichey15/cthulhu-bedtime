@@ -4,24 +4,20 @@
     <meta charset="utf-8">
     <title>Character Creation</title>
     <link rel="stylesheet" href="creation-style.css">
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
   </head>
   <body>
 
-    <div class="new-user">
-      <form id="userInput">
+      <form id="user-input">
+
         <fieldset>
           <legend>New User</legend>
           <label for="user">Input Username: </label><input type="text" name="user" value="">
         </fieldset>
-    </div>
 
-    <div class="userInput">
         <fieldset>
           <legend>Create Your Character</legend>
-
           <label for="characterName">Name Your Character: </label><input type="text" name="characterName" value="">
-
           <label for="gender" >Choose Your Gender: </label>
           <select class="gender-menu" name="gender">
             <option value="She/Her">She/Her</option>
@@ -32,12 +28,9 @@
 
         <div class="submit">
           <a href="story.html"><button type="submit" name="creatorButton" id="dreamland">Off to Dreamland!</button></a>
-
         </div>
+
       </form>
-    </div>
-
-
 
     <script type="text/javascript" src="creation-logic.js"></script>
   </body>
