@@ -15,7 +15,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -8em 0em 0em -14em;
+  margin: -8.5em 0em 0em -14.5em;
   height: 17em;
   width: 29.5em;
 }
@@ -34,6 +34,10 @@ body {
 
 #web-name {
   font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.71em;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  color: #f5f5af;
   display: inline;
   position: absolute;
   left: 30.8%;
@@ -48,6 +52,10 @@ body {
 
 .center {
   text-align: center;
+  font-family: 'Philosopher', sans-serif;
+  color: white;
+  text-decoration: underline;
+  text-decoration-style: wavy;
 }
 
 #login-button{
@@ -58,10 +66,17 @@ body {
 
 #new-char{
   display: inline;
-  margin-left: 3em
+  margin-left: 3em;
+  border: none;
 }
 
 #login-field{
   display: inline;
   width: 16em;
+  border: none;
+}
+
+#username{
+  font-family: 'Philosopher', sans-serif;
+  color: white;
 }
