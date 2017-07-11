@@ -16,8 +16,15 @@ label {
   font-family: 'Philosopher', sans-serif;
 }
 
-.new-character, .new-user {
-  border: 3px solid black;
-  margin: 10px 0px 10px 0px;
-  padding: 20px;
+.user-input {
+  text-align: center;
+}
+
+fieldset {
+  display: block;
+  float: left;
+}
+
+#dreamland {
+  clear: both;
 }
