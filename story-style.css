@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+  min-width: 880px;
+  background-image: url('assets/wood.jpg');
+  background-color: #6d4929;
+  text-align: center;
+}
+
+h1 {
+  margin: 0px;
+  background-color: black;
+  color: white;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.story-text {
+  padding-left: 25%;
+  padding-right: 5%;
+  padding-top: 10%;
+  padding-bottom: 16%;
+  text-align: left;
+  font-family: 'Athiti', sans-serif;
+  font-size: 1.6em;
+}
+
+label {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.4em;
+}
+
+input {
+  margin-left: 60px;
+}
+
+#story-page {
+  /*margin: 1%;*/
+  /*background-position: center top;*/
+  background-size: cover;
+  background-image: url('assets/spellbook_half.png');
+  background-repeat: no-repeat;
+}
+
+#user-choices {
+  margin: 1%;
+  border: 4px solid black;
+  background-color: black;
+  color: white;
+}
