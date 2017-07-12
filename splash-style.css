@@ -8,23 +8,73 @@ html, body {
 }
 
 body {
-  background-color: #eaea97;
+  background-color: #7a986c;
+}
+
+#whole-thing{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -8.5em 0em 0em -14.5em;
+  height: 17em;
+  width: 29.5em;
 }
 
 #splash {
   position: absolute;
-  height: 12.56em;
-  width: 36.2em;
+  height: 10em;
+  width: 29em;
 }
 
 #logo {
-  height: 200px;
-  width: 200px;
+  height: 10em;
+  width: 10em;
   display: inline;
 }
 
 #web-name {
   font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.71em;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  color: #f5f5af;
   display: inline;
   position: absolute;
+  left: 30.8%;
+  top: 54%;
+}
+
+#user-login {
+  display: inline;
+  position: absolute;
+  top: 60%;
+}
+
+.center {
+  text-align: center;
+  font-family: 'Philosopher', sans-serif;
+  color: white;
+}
+
+#login-button{
+  position: absolute;
+  right: 41%;
+  top: 46%;
+}
+
+#new-char{
+  display: inline;
+  margin-left: 3em;
+  border: none;
+}
+
+#login-field{
+  display: inline;
+  width: 16em;
+  border: none;
+}
+
+#username{
+  font-family: 'Philosopher', sans-serif;
+  color: white;
 }
