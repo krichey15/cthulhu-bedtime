@@ -50,7 +50,7 @@ function convertStory(){
 ///shows option and choices
 function displayStory(index){
   ///Get story string and display to story section
-  pEl.textContent = storyObjects[index].story;
+  pEl.innerHTML = storyObjects[index].story;
   storyPage.appendChild(pEl);
 
   ///get options and display to div
@@ -59,7 +59,7 @@ function displayStory(index){
   var inputChoiceTwo = document.getElementsByName('choiceTwo')[0];
   var inputChoiceTwoLabel = document.getElementById('choice-two');
 
-  console.log(inputChoiceOne);
+  // console.log(inputChoiceOne);
 
   inputChoiceOne.value = storyObjects[index].choiceOne;
   inputChoiceTwo.value = storyObjects[index].choiceTwo;
@@ -73,6 +73,7 @@ choiceTwoEl.addEventListener('click', choiceSelection);
 function choiceSelection (event){
   ////Selecting choice logs choice to final scenario
   storyChoices.push(event.target.value);
+  console.log(storyChoices);
   ///Increments scenario by 1
   storyIndex += 1;
   if(storyIndex < storyObjects.length){
