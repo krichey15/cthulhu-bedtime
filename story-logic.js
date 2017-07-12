@@ -14,6 +14,7 @@ var storyPage = document.getElementById('story-page');
 var userChoices = document.getElementById('user-choices');
 var storyChoices = [];
 var storyIndex = 0;
+var userScore = 0;
 
 var choiceOneEl = document.getElementsByName('choiceOne')[0];
 var choiceTwoEl = document.getElementsByName('choiceTwo')[0];
@@ -21,11 +22,11 @@ var choiceTwoEl = document.getElementsByName('choiceTwo')[0];
 var pEl = document.createElement('p');
 pEl.setAttribute('class', 'story-text');
 
-var finalScenario = {
-  choiceOne: '',
-  choiceTwo: '',
-  choiceThree: ''
-};
+// var finalScenario = {
+//   choiceOne: '',
+//   choiceTwo: '',
+//   choiceThree: ''
+// };
 
 ///gets what is in local storage and puts it in the story objects
 function convertStory(){
@@ -72,16 +73,24 @@ choiceTwoEl.addEventListener('click', choiceSelection);
 
 function choiceSelection (event){
   ////Selecting choice logs choice to final scenario
-  storyChoices.push(event.target.value);
+  storyChoices.push(event.target.name);
   console.log(storyChoices);
+  console.log(event.target.name);
   ///Increments scenario by 1
   storyIndex += 1;
-  if(storyIndex < storyObjects.length){
+  if(storyIndex < 3){
     displayStory(storyIndex);
     ///Uncheck all checkboxes
     choiceOneEl.checked = false;
     choiceTwoEl.checked = false;
-  }else {
+  } else {
+    for(var i = 0; i < storyChoices.length; i++) {
+      if(storyChoices[i] === 'choiceOne') {
+        userScore += 2;
+      } else {
+        userScore += 1;
+      }
+    }
     finalStory(storyChoices);
     var bodyEl = document.getElementsByTagName('body')[0];
     bodyEl.removeChild(userChoices);
@@ -91,9 +100,17 @@ function choiceSelection (event){
 
 ///sets properties of final scenario
 function finalStory(choices){
-  finalScenario.choiceOne = choices[0];
-  finalScenario.choiceTwo = choices[1];
-  finalScenario.choiceThree = choices[2];
+  if(userScore === 6) {
+    pEl.innerHTML = localStorage.badEnd;
+  } else if(userScore === 3) {
+    pEl.innerHTML = localStorage.goodEnd;
+  } else {
+    pEl.innerHTML = localStorage.neutEnd;
+  }
+  console.log(userScore);
+  // finalScenario.choiceOne = choices[0];
+  // finalScenario.choiceTwo = choices[1];
+  // finalScenario.choiceThree = choices[2];
   console.log('Final Story is reached');
 }
 
