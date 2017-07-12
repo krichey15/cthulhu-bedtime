@@ -17,37 +17,37 @@ body {
   left: 50%;
   margin: -8.5em 0em 0em -14.5em;
   height: 17em;
-  width: 29.5em;
+  width: 37.5em;
 }
 
 #splash {
   position: absolute;
   height: 10em;
-  width: 29em;
+  width: 37em;
 }
 
 #logo {
-  height: 10em;
-  width: 10em;
+  height: 13em;
+  width: 13em;
   display: inline;
 }
 
 #web-name {
   font-family: 'Gloria Hallelujah', cursive;
-  font-size: 1.71em;
-  text-decoration: underline;
-  text-decoration-style: wavy;
+  font-size: 3em;
+  text-align: center;
   color: #f5f5af;
   display: inline;
   position: absolute;
-  left: 30.8%;
-  top: 54%;
+  left: 35.8%;
+  top: -9%;
 }
 
 #user-login {
   display: inline;
   position: absolute;
-  top: 60%;
+  top: 78%;
+  left: 11%;
 }
 
 .center {
