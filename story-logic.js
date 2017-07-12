@@ -94,7 +94,6 @@ function finalStory(choices){
   finalScenario.choiceOne = choices[0];
   finalScenario.choiceTwo = choices[1];
   finalScenario.choiceThree = choices[2];
-  pEl.innerHTML = finalStoryArray[0];
   console.log('Final Story is reached');
 }
 
