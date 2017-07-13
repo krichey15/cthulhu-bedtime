@@ -61,3 +61,9 @@ p {
   top: 22%;
   left: 19%;
 }
+
+#vivi {
+  position: absolute;
+  left: 34em;
+  top: 10em;
+}
