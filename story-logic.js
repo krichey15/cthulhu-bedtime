@@ -10,7 +10,7 @@
 
 ///Where story objects will go
 var storyObjects;
-var storyPage = document.getElementById('story-page');
+var storyPage = document.getElementById('story');
 var userChoices = document.getElementById('user-choices');
 var storyChoices = [];
 var storyIndex = 0;

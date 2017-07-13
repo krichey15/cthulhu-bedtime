@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  min-width: 880px;
+  min-width: 1400px;
   background-image: url('assets/wood.jpg');
   background-color: #6d4929;
   text-align: center;
@@ -20,7 +20,7 @@ h1 {
   padding-bottom: 16%;
   text-align: left;
   font-family: 'Athiti', sans-serif;
-  font-size: 1.6em;
+  font-size: 6vh;
 }
 
 label {
@@ -39,6 +39,7 @@ input {
   background-image: url('assets/spellbook_half.png');
   background-repeat: no-repeat;
 }
+
 
 #user-choices {
   margin: 1%;
