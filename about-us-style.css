@@ -1,0 +1,58 @@
+/** {
+  border: 1px dotted red;
+}*/
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: white;
+  background-color: #7a986c;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%
+}
+
+header {
+  text-align: center;
+}
+
+ul{
+  padding-left: 0.5em;
+  padding-right: .5em;
+  width: 38.9em;
+}
+
+.center{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.center li {
+  display: inline-block;
+  text-align: center;
+}
+
+.found {
+  text-align: center;
+}
+
+#image-size{
+  width: 100%;
+  height: 33%;
+}
+
+#link{
+  position: absolute;
+  top: 95%;
+  left: 48%;
+}
+
+p, h1, a{
+  color: black;
+}
