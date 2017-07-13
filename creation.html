@@ -5,39 +5,43 @@
     <title>Character Creation</title>
     <link rel="stylesheet" href="creation-style.css">
     <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
   </head>
   <body>
 
+    <section>
       <h1>CHARACTER CREATION</h1>
-      <img src="assets/cthulhu-bedtime-stories-color.png" alt="Sleeping Cthulhu">
+    </section>
 
-      <form id="user-input">
+    <form id="user-input">
 
-        <div id="user-character-input">
+      <div id="user-character-input">
 
-            <fieldset>
-              <legend>New User</legend>
-              <label for="user">Input Username: </label><input type="text" name="user" value="">
-            </fieldset>
+          <fieldset>
+            <legend>New User</legend>
+            <label for="user">Input Username: </label><input type="text" name="user" value="">
+          </fieldset>
 
-            <fieldset>
-              <legend>Create Your Character</legend>
-              <label for="characterName">Name Your Character: </label><input type="text" name="characterName" value="">
-              <label for="gender" >Choose Your Gender: </label>
-              <select class="gender-menu" name="gender">
-                <option value="She/Her">She/Her</option>
-                <option value="He/Him">He/Him</option>
-                <option value="They/Them">They/Them</option>
-              </select>
-            </fieldset>
+          <fieldset id="create-your-character">
+            <legend>Create Your Character</legend>
+            <label for="characterName">Name Your Character: </label><input type="text" name="characterName" value="">
+            <label for="gender" >Choose Your Gender: </label>
+            <select class="gender-menu" name="gender">
+              <option value="She/Her">She/Her</option>
+              <option value="He/Him">He/Him</option>
+              <option value="They/Them">They/Them</option>
+            </select>
+          </fieldset>
 
-        </div>
+      </div>
 
-        <div class="submit">
-          <a href="story.html"><button type="submit" name="creatorButton" id="dreamland">Off to Dreamland!</button></a>
-        </div>
+      <div class="submit">
+        <a href="story.html"><button type="submit" name="creatorButton" id="dreamland">Off to Dreamland!</button></a>
+      </div>
 
-      </form>
+    </form>
+
+    <a href="about-us.html" id="about-us">About Us</a>
 
     <script type="text/javascript" src="creation-logic.js"></script>
   </body>
