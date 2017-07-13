@@ -1,16 +1,30 @@
 body {
   margin: 0px;
-  min-width: 944px;
+  min-width: 1050px;
   background-image: url('assets/wood.jpg');
   background-color: #6d4929;
   text-align: center;
 }
 
-h1 {
+h1, #about-us-link {
+  display: inline;
   margin: 0px;
   background-color: black;
   color: white;
   font-family: 'Gloria Hallelujah', cursive;
+}
+
+.title-bar {
+  background-color: black;
+}
+
+#about-us-link h1 {
+  display: inline;
+  color: white;
+}
+
+#about-us-link a {
+  color: white;
 }
 
 .story-text {
