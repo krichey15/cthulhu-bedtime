@@ -78,3 +78,10 @@ body {
   font-family: 'Philosopher', sans-serif;
   color: white;
 }
+
+#about {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  color: black;
+}
