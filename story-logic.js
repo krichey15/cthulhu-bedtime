@@ -22,12 +22,6 @@ var choiceTwoEl = document.getElementsByName('choiceTwo')[0];
 var pEl = document.createElement('p');
 pEl.setAttribute('class', 'story-text');
 
-// var finalScenario = {
-//   choiceOne: '',
-//   choiceTwo: '',
-//   choiceThree: ''
-// };
-
 ///gets what is in local storage and puts it in the story objects
 function convertStory(){
   ///change name based on what Kyle decides will be the name of local storage
@@ -78,7 +72,7 @@ function choiceSelection (event){
   console.log(event.target.name);
   ///Increments scenario by 1
   storyIndex += 1;
-  if(storyIndex < 3){
+  if(storyIndex < storyObjects.length) {
     displayStory(storyIndex);
     ///Uncheck all checkboxes
     choiceOneEl.checked = false;
@@ -108,9 +102,6 @@ function finalStory(choices){
     pEl.innerHTML = localStorage.neutEnd;
   }
   console.log(userScore);
-  // finalScenario.choiceOne = choices[0];
-  // finalScenario.choiceTwo = choices[1];
-  // finalScenario.choiceThree = choices[2];
   console.log('Final Story is reached');
 }
 

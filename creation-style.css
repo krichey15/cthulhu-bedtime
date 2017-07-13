@@ -1,11 +1,19 @@
 body {
   background-color: #7a986c;
-  background-image: url('assets/cthulhu-bedtime-stories-color.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top center;
-  background-size: 20%;
   margin: 0px;
+}
+
+h1 {
+  float: left;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 60px;
+  margin: 5% 0px 0px 0px;
+}
+
+img{
+  float: left;
+  height: 13%;
+  width: 13%;
 }
 
 legend {
@@ -21,13 +29,14 @@ form {
   background: url('assets/Gothic-border-for-creation.png');
   background-size: contain;
   background-repeat: no-repeat;
-  margin: 0px 10% 0px 10%;
-  /*background: rgba(175, 175, 175, 0.6);*/
+  border: 1px solid black;
+  margin: 89px 10% 0px 10%;
 }
 
 #user-character-input {
   text-align: center;
   margin: 230px 20% 0px 20%;
+  border: 1px solid black;
 }
 
 .submit {
