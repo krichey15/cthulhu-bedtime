@@ -71,3 +71,23 @@ input {
   background-color: black;
   color: white;
 }
+
+#secret {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 20px;
+  width: 150px;
+  height: 200px;
+  color: rgba(255, 255, 255, 0.0);
+  -webkit-transition: width 1s, height 1s, background-color 1s;
+  transition: width 1s, height 1s, background-color 1s;
+}
+#secret:hover {
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  color: rgba(255, 255, 255, 1.0);
+  background-color: black;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 200px;
+}
