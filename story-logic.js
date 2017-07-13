@@ -10,7 +10,7 @@
 
 ///Where story objects will go
 var storyObjects;
-var storyPage = document.getElementById('story');
+var storyPage = document.getElementById('story-page');
 var userChoices = document.getElementById('user-choices');
 var storyChoices = [];
 var storyIndex = 0;
@@ -88,6 +88,7 @@ function choiceSelection (event){
     finalStory(storyChoices);
     var bodyEl = document.getElementsByTagName('body')[0];
     bodyEl.removeChild(userChoices);
+    pEl.setAttribute('class', 'story-ending');
     ///go to finalScenario
   }
 }
