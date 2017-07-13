@@ -33,12 +33,21 @@ p, h1, a, h5{
   color: black;
 }
 
+#cactaur {
+  position: absolute;
+  left: 14em;
+  top: 10em;
+}
+
 #k-hover {
   display: none;
 }
 
 #cactaur:hover + #k-hover{
   display: block;
+  position: absolute;
+  left: 14em;
+  top: 22em;
 }
 
 p {
@@ -49,6 +58,6 @@ p {
 
 #names {
   position: absolute;
-  top: 10%;
-  left: 25%;
+  top: 22%;
+  left: 19%;
 }
