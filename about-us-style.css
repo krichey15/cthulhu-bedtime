@@ -1,0 +1,39 @@
+body {
+  color: white;
+  background-color: gray;
+}
+
+img {
+  border-radius: 50%
+}
+
+header {
+  text-align: center;
+}
+
+.center li {
+  display: inline-block;
+  text-align: center;
+  margin-left: 125px;
+}
+
+.found {
+  text-align: center;
+}
+
+/*.dropdown {
+  position: relative;
+  display:inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #a7bfe8;
+  width: 160px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+*/
