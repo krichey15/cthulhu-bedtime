@@ -10,7 +10,7 @@
 
 ///Where story objects will go
 var storyObjects;
-var storyPage = document.getElementById('story');
+var storyPage = document.getElementById('story-page');
 var userChoices = document.getElementById('user-choices');
 var storyChoices = [];
 var storyIndex = 0;
@@ -32,14 +32,16 @@ function convertStory(){
     console.log('Conversion happened');
   }else {
     ///Take back to character creation page
-    // alert('Please create a character for the story');
-    // window.location.assign('creation.html');
-    storyObjects = [
-      {story:'“Dear Cthulhu, I have many urges and desires, but on this most sacred of nights, there is only one thing that I want. I cannot commit my request to digital media, but please look into my heart of hearts and grant my dearest wish. And I would also like a pony. Yours Truly, NAME ” NAME finished THEIR letter, and with a shaking hand, clicked the Send button. NAME waited several seconds, unsure if THEY would ever receive a response to THEIR request, but knew that in the end, if THEIR wish was granted, the results would be obvious. NAME stood, stretching, sore from sitting for so long in front of THEIR computer. THEY glanced out the window, squinting at the ominously bright moon. It\’s a good time for a walk, NAME thought. THEY put on THEIR shoes, grabbed a fresh-baked cinnamon roll, and headed out the door, into the night. It was warm and muggy, fireflies glowing in the air. NAME held out THEIR hands, catching one of the bioluminescent bugs. THEY…', choiceOne: 'put in jar', choiceTwo:'smear on sidewalk'},
-      {story:'Story section two', choiceOne: 'Choice One', choiceTwo:'Choice Two'},
-      {story:'Story section three', choiceOne: 'Choice One', choiceTwo:'Choice Two'}
-    ];
+    alert('Please create a character for the story');
+    window.location.assign('creation.html');
   }
+}
+
+function displayTitle(){
+  var character = JSON.parse(localStorage.user);
+  character = character.characterName;
+  document.getElementById('story-title').textContent = character + '\'s Wish';
+  console.log(localStorage.user);
 }
 
 ///shows option and choices
@@ -88,6 +90,7 @@ function choiceSelection (event){
     finalStory(storyChoices);
     var bodyEl = document.getElementsByTagName('body')[0];
     bodyEl.removeChild(userChoices);
+    pEl.setAttribute('class', 'story-ending');
     ///go to finalScenario
   }
 }
@@ -106,4 +109,5 @@ function finalStory(choices){
 }
 
 convertStory();
+displayTitle();
 displayStory(0);
