@@ -13,46 +13,42 @@ body {
 }
 
 img {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%
+  height: 12em;
+  width: 12em;
+  border-radius: 50%;
+  margin-right: 3em;
 }
 
 header {
   text-align: center;
 }
-
-ul{
-  padding-left: 0.5em;
-  padding-right: .5em;
-  width: 38.9em;
-}
-
-.center{
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
-.center li {
-  display: inline-block;
-  text-align: center;
-}
-
-.found {
-  text-align: center;
-}
-
-#image-size{
-  width: 100%;
-  height: 33%;
-}
-
+s
 #link{
   position: absolute;
   top: 95%;
   left: 48%;
 }
 
-p, h1, a{
+p, h1, a, h5{
   color: black;
+}
+
+#k-hover {
+  display: none;
+}
+
+#cactaur:hover + #k-hover{
+  display: block;
+}
+
+p {
+  display: inline;
+  margin-right: 10em;
+  margin-left: 3em;
+}
+
+#names {
+  position: absolute;
+  top: 10%;
+  left: 25%;
 }
