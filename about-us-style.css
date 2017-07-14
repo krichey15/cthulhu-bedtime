@@ -95,3 +95,7 @@ display: none;
   left: 55em;
   top: 22em;
 }
+
+.block {
+  display: block;
+}
