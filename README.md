@@ -4,7 +4,7 @@
 
 ## Our Vision . . .
 
-The inspiration behind designing Cthulhu's Bedtime Stories was to create an inclusive and interactive story that the user could influence. The protagonist's name, actions, their preferred pronouns, and the consequences of their choices are all up to the user.
+The inspiration behind designing Cthulhu Bedtime Stories was to create an inclusive and interactive story that the user could influence. The protagonist's name, actions, their preferred pronouns, and the consequences of their choices are all up to the user.
 
 ## Our Site . . .
 
@@ -16,7 +16,7 @@ The inspiration behind designing Cthulhu's Bedtime Stories was to create an incl
 
 #### Splash Page
 
-This is the landing page a user will see before they begin their exploration of Cthulhu's Bedtime Stories. It features a Login option (for returning users) and a Character Creation button, which both take the user to their own respective pages. This page also has an About Us link at the bottom.
+This is the landing page a user will see before they begin their exploration of Cthulhu Bedtime Stories. It features a Login option (for returning users) and a Character Creation button, which both take the user to their own respective pages. This page also has an About Us link at the bottom.
 
 #### Character Creation Page
 
@@ -28,4 +28,4 @@ This is where the fun begins. On this page the user gets to read the story we've
 
 #### About Us Page
 
-As the name of the page suggests, this is a page that allows the user to get to know the developers behind Cthulhu's Bedtime Stories.
+As the name of the page suggests, this is a page that allows the user to get to know the developers behind Cthulhu Bedtime Stories.
