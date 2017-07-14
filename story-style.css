@@ -29,26 +29,24 @@ h1, #about-us-link {
 
 .story-text {
   position: relative;
-  height: 100%;
-  padding-left: 25%;
-  padding-right: 5%;
-  padding-top: 10%;
-  padding-bottom: 16%;
+  height: 106%;
+  width: 71%;
+  margin-left: 250px;
+  top: 90px;
   text-align: left;
   font-family: 'Athiti', sans-serif;
   font-size: 1.6em;
-  overflow-y: scroll;
 }
 
 .story-ending {
   position: relative;
-  padding-left: 25%;
-  padding-right: 5%;
-  padding-top: 10%;
-  padding-bottom: 16%;
+  height: 106%;
+  width: 73.7%;
+  margin-left: 250px;
+  top: 90px;
   text-align: left;
   font-family: 'Athiti', sans-serif;
-  font-size: 20px;
+  font-size: 1.6em;
   overflow-y: scroll;
 }
 
