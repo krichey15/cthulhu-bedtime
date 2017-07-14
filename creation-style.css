@@ -1,42 +1,58 @@
 body {
   background-color: #7a986c;
+  background-image: url('assets/cthulhu-bedtime-stories-color.png');
+  background-size: 13%;
+  background-position: 80% 1%;
+  background-repeat: no-repeat;
   margin: 0px;
 }
 
 h1 {
-  float: left;
-  font-family: 'Philosopher', sans-serif;
-  font-size: 60px;
-  margin: 5% 0px 0px 0px;
-}
-
-img{
-  float: left;
-  height: 13%;
-  width: 13%;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-shadow: 2px 2px 6px black;
+  color: #eaea97;
+  font-size: 4em;
+  margin: 5% 0px 0px 16%;
 }
 
 legend {
   font-family: 'Philosopher', sans-serif;
-  font-size: 45px;
+  font-size: 3em;
+  text-shadow: 2px 2px 6px black;
+  color: #eaea97;
+}
+
+fieldset {
+  border: none;
 }
 
 label {
   font-family: 'Philosopher', sans-serif;
+  text-shadow: 2px 2px 6px black;
+  color: #eaea97;
 }
 
 form {
-  background: url('assets/Gothic-border-for-creation.png');
+  background-image: url('assets/Gothic-border-for-creation.png');
   background-size: contain;
   background-repeat: no-repeat;
-  border: 1px solid black;
-  margin: 89px 10% 0px 10%;
+  width: 50%;
+  height: 500px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 3%;
 }
 
 #user-character-input {
   text-align: center;
-  margin: 230px 20% 0px 20%;
-  border: 1px solid black;
+  margin-top: 50px;
+  width: 100%;
+}
+
+#create-your-character {
+  margin-top: 3%;
 }
 
 .submit {
@@ -44,4 +60,41 @@ form {
   clear: both;
   text-align: center;
   padding: 20px;
+  margin-top: 10%;
+}
+
+#dreamland {
+  color: #eaea97;
+  background-color: rgba(255, 255, 255, 0.20);
+  padding: 12px 17px;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-shadow: 2px 2px 6px black;
+  border: 3px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #7a986c;
+  transition: all ease 0.7s;
+}
+
+#dreamland:hover {
+  box-shadow: inset 290px 0 0 0 black;
+  color: red;
+}
+
+#about-us {
+  font-family: 'Gloria Hallelujah', cursive;
+  text-decoration: none;
+  color: #eaea97;
+  margin-left: 46%;
+  margin-right: 45%;
+  margin-bottom: 20px;
 }

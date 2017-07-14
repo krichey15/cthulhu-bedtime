@@ -1,0 +1,101 @@
+/** {
+  border: 1px dotted red;
+}*/
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: white;
+  background-color: #7a986c;
+}
+
+img {
+  height: 12em;
+  width: 12em;
+  border-radius: 50%;
+  margin-right: 3em;
+}
+
+header {
+  text-align: center;
+}
+
+#link{
+  position: absolute;
+  top: 95%;
+  left: 48%;
+}
+
+p, h1, a, h5{
+  color: black;
+}
+
+#cactaur {
+  position: absolute;
+  left: 14em;
+  top: 10em;
+}
+
+#k-hover {
+  display: none;
+}
+
+#cactaur:hover + #k-hover{
+  display: block;
+  position: absolute;
+  left: 14em;
+  top: 22em;
+}
+
+p {
+  display: inline;
+  margin-right: 10em;
+  margin-left: 3em;
+}
+
+#names {
+  position: absolute;
+  top: 22%;
+  left: 19%;
+}
+
+#vivi {
+  position: absolute;
+  left: 34em;
+  top: 10em;
+}
+
+#cloud {
+  position: absolute;
+  top: 10em;
+  left: 55em;
+}
+
+#r-hover {
+  display: none;
+}
+
+#vivi:hover + #r-hover{
+  display: block;
+  position: absolute;
+  left: 34em;
+  top: 22em;
+}
+
+#c-hover {
+display: none;
+}
+
+#cloud:hover + #c-hover{
+  display: block;
+  position: absolute;
+  left: 55em;
+  top: 22em;
+}
+
+.block {
+  display: block;
+}
