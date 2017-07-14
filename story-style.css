@@ -28,8 +28,8 @@ h1, #about-us-link {
 }
 
 .story-text {
-  top: 50px;
-  height: 90%;
+  position: relative;
+  height: 100%;
   padding-left: 25%;
   padding-right: 5%;
   padding-top: 10%;
@@ -41,6 +41,7 @@ h1, #about-us-link {
 }
 
 .story-ending {
+  position: relative;
   padding-left: 25%;
   padding-right: 5%;
   padding-top: 10%;
@@ -48,6 +49,7 @@ h1, #about-us-link {
   text-align: left;
   font-family: 'Athiti', sans-serif;
   font-size: 20px;
+  overflow-y: scroll;
 }
 
 label {
@@ -68,8 +70,9 @@ input {
 }
 
 #story-text{
+  position: relative;
   width: 978px;
-  height: 60%;
+  height: 70%;
 }
 
 #user-choices {
