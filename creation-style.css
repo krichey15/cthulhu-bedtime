@@ -2,7 +2,7 @@ body {
   background-color: #7a986c;
   background-image: url('assets/cthulhu-bedtime-stories-color.png');
   background-size: 13%;
-  background-position: 1075px 1%;
+  background-position: 75% 1%;
   background-repeat: no-repeat;
   margin: 0px;
 }
@@ -11,8 +11,8 @@ h1 {
   font-family: 'Gloria Hallelujah', cursive;
   text-shadow: 2px 2px 6px black;
   color: #eaea97;
-  font-size: 65px;
-  margin: 5% 0px 0px 16%;
+  font-size: 3.1em;
+  margin: 5% 0px 5% 20%;
 }
 
 legend {
@@ -29,6 +29,7 @@ fieldset {
 label {
   font-family: 'Philosopher', sans-serif;
   text-shadow: 2px 2px 6px black;
+  font-size: 1.25em;
   color: #eaea97;
 }
 
@@ -38,11 +39,11 @@ form {
   background-repeat: no-repeat;
   width: 50%;
   height: 500px;
-  margin-left: 20%;
+  margin-left: 19%;
   margin-right: 20%;
   margin-top: 50px;
-  margin-bottom: 100px;
-  padding: 3%;
+  margin-bottom: 0px;
+  padding: 5%;
 }
 
 #user-character-input {
