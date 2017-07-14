@@ -20,22 +20,31 @@ img {
 }
 
 header {
+  font-family: 'Gloria Hallelujah', cursive;
   text-align: center;
+  font-size: 1.2em;
 }
+
+/*h1 {
+  color: #eaea97;
+}*/
 
 #link{
   position: absolute;
+  text-decoration: none;
+  font-family: 'Gloria Hallelujah', cursive;
   top: 95%;
   left: 48%;
 }
 
 p, h1, a, h5{
-  color: black;
+  color: #eaea97;
+  text-shadow: 2px 2px 4px black;
 }
 
 #cactaur {
   position: absolute;
-  left: 14em;
+  left: 16em;
   top: 10em;
 }
 
@@ -46,7 +55,7 @@ p, h1, a, h5{
 #cactaur:hover + #k-hover{
   display: block;
   position: absolute;
-  left: 14em;
+  left: 16em;
   top: 22em;
 }
 
@@ -58,20 +67,21 @@ p {
 
 #names {
   position: absolute;
-  top: 22%;
-  left: 19%;
+  font-family: 'Philosopher', sans-serif;
+  top: 15%;
+  left: 21%;
 }
 
 #vivi {
   position: absolute;
-  left: 34em;
+  left: 36em;
   top: 10em;
 }
 
 #cloud {
   position: absolute;
   top: 10em;
-  left: 55em;
+  left: 57em;
 }
 
 #r-hover {
@@ -81,7 +91,7 @@ p {
 #vivi:hover + #r-hover{
   display: block;
   position: absolute;
-  left: 34em;
+  left: 37em;
   top: 22em;
 }
 
@@ -92,10 +102,12 @@ display: none;
 #cloud:hover + #c-hover{
   display: block;
   position: absolute;
-  left: 55em;
+  left: 58em;
   top: 22em;
 }
 
 .block {
   display: block;
+  font-size: 15px;
+  font-family: 'Philosopher', sans-serif;
 }
