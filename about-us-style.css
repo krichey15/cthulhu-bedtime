@@ -22,7 +22,7 @@ img {
 header {
   text-align: center;
 }
-s
+
 #link{
   position: absolute;
   top: 95%;
@@ -66,4 +66,32 @@ p {
   position: absolute;
   left: 34em;
   top: 10em;
+}
+
+#cloud {
+  position: absolute;
+  top: 10em;
+  left: 55em;
+}
+
+#r-hover {
+  display: none;
+}
+
+#vivi:hover + #r-hover{
+  display: block;
+  position: absolute;
+  left: 34em;
+  top: 22em;
+}
+
+#c-hover {
+display: none;
+}
+
+#cloud:hover + #c-hover{
+  display: block;
+  position: absolute;
+  left: 55em;
+  top: 22em;
 }
