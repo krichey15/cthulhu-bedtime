@@ -28,23 +28,26 @@ h1, #about-us-link {
 }
 
 .story-text {
-  padding-left: 25%;
-  padding-right: 5%;
-  padding-top: 10%;
-  padding-bottom: 16%;
+  position: relative;
+  height: 106%;
+  width: 71%;
+  margin-left: 250px;
+  top: 90px;
   text-align: left;
   font-family: 'Athiti', sans-serif;
   font-size: 1.6em;
 }
 
 .story-ending {
-  padding-left: 25%;
-  padding-right: 5%;
-  padding-top: 10%;
-  padding-bottom: 16%;
+  position: relative;
+  height: 106%;
+  width: 73.7%;
+  margin-left: 250px;
+  top: 90px;
   text-align: left;
   font-family: 'Athiti', sans-serif;
-  font-size: 20px;
+  font-size: 1.6em;
+  overflow-y: scroll;
 }
 
 label {
@@ -57,13 +60,18 @@ input {
 }
 
 #story-page {
-  /*margin: 1%;*/
-  /*background-position: center top;*/
-  background-size: cover;
-  background-image: url('assets/spellbook_half.png');
+  height: 1090px;
+  background-size: auto;
+  /*background-size: cover;*/
+  background-image: url('assets/spellbook.png');
   background-repeat: no-repeat;
 }
 
+#story-text{
+  position: relative;
+  width: 978px;
+  height: 70%;
+}
 
 #user-choices {
   margin: 1%;
