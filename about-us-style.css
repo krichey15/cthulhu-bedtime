@@ -2,7 +2,7 @@
   border: 1px dotted red;
 }*/
 
-html, body {
+*html, body {
   height: 100%;
   width: 100%;
 }
@@ -74,7 +74,7 @@ p {
 
 #vivi {
   position: absolute;
-  left: 41em;
+  left: 42em;
   top: 10em;
 }
 
@@ -91,7 +91,7 @@ p {
 #vivi:hover + #r-hover{
   display: block;
   position: absolute;
-  left: 41em;
+  left: 42em;
   top: 22em;
 }
 
