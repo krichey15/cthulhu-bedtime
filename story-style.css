@@ -105,7 +105,7 @@ input {
   -webkit-transition: width 1s, height 1s, background-color 1s;
   transition: width 1s, height 1s, background-color 1s;
 }
-#secret:hover {
+#secret:active {
   margin: 0px;
   width: 100vw;
   height: 100vh;
