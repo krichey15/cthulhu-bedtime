@@ -80,8 +80,10 @@ body {
 }
 
 #about {
+  font-family: 'Gloria Hallelujah', cursive;
+  text-decoration: none;
   position: absolute;
   top: 95%;
   left: 50%;
-  color: black;
+  color: #f5f5af;
 }
